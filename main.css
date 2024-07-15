@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body > header {background-color: darkslategrey;
+    padding: 18px 0;
+    color: bisque;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+
+header li a {
+    color: rgb(240, 240, 240);
+;
+}
+
+.container {
+    width: 1300 px;
+    margin: auto;
+}
+
+
+.article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.article article img {
+    height: 188px;
+}
+
+.article article {
+    width: 29%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2 
+.article article {
+    margin-bottom: 16px;
+
+}
+
+.articles article h3 {
+    margin: 16px;
+    margin-bottom: 16px;
+}
+
+.articles article a {
+    background-color: chartreuse;
+    color: aliceblue;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.articles article a:hover{
+text-decoration: underline;
+}
+
+.articles article p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Economia {
+    background-color: darkgreen;
+}
+#Esportes {
+    background-color: forestgreen;
+}
+
+#Segurança {
+    background-color: lawngreen;
+}
+
+#Saude {
+    background-color: darkolivegreen;
+}
